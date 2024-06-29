@@ -214,7 +214,7 @@ class MainTest {
         // Then
         assertEquals(expectedStatus, errorResponse.getStatus(), "The status should match the expected value.");
         assertEquals(expectedMessage, errorResponse.getMessage(), "The message should match the expected value.");
-        assertEquals(expectedTimestamp, errorResponse.getTimestamp(), "The timestamp should match the expected value.");
+        assertEquals(expectedTimestamp, errorResponse.getTimeStamp(), "The timestamp should match the expected value.");
     }
 
 
